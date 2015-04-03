@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'linphone' target in the 'linphone' project
+//
+#import "Constants.h"
+#import "OpenUDID.h"
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
